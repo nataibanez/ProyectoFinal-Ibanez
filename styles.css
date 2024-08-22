@@ -1,0 +1,221 @@
+/* Directrices de body y del header */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./img/papelsemitransparente.webp');
+}
+
+.titlebar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('./img/texturalpapelverde.webp');
+    border-bottom: black solid 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.titleText {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.titleText:hover {
+    color:#c6c6c6;
+}
+
+.logoImagen {
+    width: 7%;
+    height: 7%;
+    margin-right: 10px;
+}
+
+.bodyTextAdjust {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.bodyText {
+    text-align: center;
+    
+}
+
+.dataInput {
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.dataTextInput {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.selectAdjust {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 10px center, 0 0;
+    background-size: 16px 16px, 100%;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.selectAdjust:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    outline: none;
+}
+
+.calendarInput {
+    width: 8%;
+    padding: 10px;
+    border: 1px solid rgba(76, 175, 80, 0.5);
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Botones */
+
+#submit-btn {
+    background-color: rgba(76, 175, 80);
+    border: 2px solid rgba(43, 104, 46, 0.5);
+    border-radius: 12px;
+    padding: 25px 42px;
+    margin-bottom: 2%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+#submit-btn:hover {
+    background-color: #45A049;
+    border-color: #2C6B2F;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#submit-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.3);
+}
+
+.delete-btn{
+    background-color: #c51f1f; 
+    color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 16px;     
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #891313; 
+}
+
+.buttonCentering {
+    text-align: center;
+}
+
+/* Zona de tarjetas */
+
+.card {
+    background-color: white;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.card.selected {
+    border: 2px solid blue; 
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.doctor-card {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 1%;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+}
+
+.doctor-card-content {
+    display: flex;
+    align-items: center;
+}
+
+.doctor-card.selected {
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
+    background-color: #f9fff9;
+}
+
+.doctor-photo {
+    width: 100px;
+    height: 140px;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
+.doctor-big-card-photo {
+    width: 200px;
+    height: 280px;
+    border-radius: 10%; 
+    margin-right: 20px;
+}
+
+
+#doctorCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Footer */
+
+.footerBar {
+    background-color: rgb(25, 25, 25);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    border-top: solid black 5px;
+    margin-bottom: 0rem;
+}

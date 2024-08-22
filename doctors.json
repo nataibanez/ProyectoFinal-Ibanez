@@ -1,0 +1,284 @@
+{
+    "doctors": [
+        {
+            "id": 1,
+            "name": "Dr. Álvaro Fernández",
+            "age": 48,
+            "specialty": "Medicina general",
+            "alma_mater": "Pontificia Universidad Católica de Chile",
+            "rating": 4.8,
+            "next_date": "2024-08-23T10:00:00",
+            "img": "./img/doctor_1.webp"
+        },
+        {
+            "id": 2,
+            "name": "Dra. Isabel Valdivia",
+            "age": 42,
+            "specialty": "Medicina general",
+            "alma_mater": "Universidad de Chile",
+            "rating": 4.7,
+            "next_date": "2024-08-23T11:00:00",
+            "img": "./img/doctor_2.webp"
+        },
+        {
+            "id": 3,
+            "name": "Dr. Sebastián Larraín",
+            "age": 51,
+            "specialty": "Medicina general",
+            "alma_mater": "Universidad de los Andes",
+            "rating": 4.9,
+            "next_date": "2024-08-24T09:00:00",
+            "img": "./img/doctor_3.webp"
+        },
+        {
+            "id": 4,
+            "name": "Dra. Paula Errázuriz",
+            "age": 39,
+            "specialty": "Medicina general",
+            "alma_mater": "Universidad de Concepción",
+            "rating": 4.6,
+            "next_date": "2024-08-23T14:00:00",
+            "img": "./img/doctor_4.webp"
+        },
+        {
+            "id": 5,
+            "name": "Dr. Tomás Vicuña",
+            "age": 45,
+            "specialty": "Medicina general",
+            "alma_mater": "Universidad del Desarrollo",
+            "rating": 4.7,
+            "next_date": "2024-08-24T08:00:00",
+            "img": "./img/doctor_5.webp"
+        },
+        {
+            "id": 6,
+            "name": "Dra. Catalina Urrutia",
+            "age": 40,
+            "specialty": "Medicina general",
+            "alma_mater": "Universidad de Chile",
+            "rating": 4.8,
+            "next_date": "2024-08-25T10:00:00",
+            "img": "./img/doctor_6.webp"
+        },
+        {
+            "id": 7,
+            "name": "Dr. Vicente Echeverría",
+            "age": 50,
+            "specialty": "Medicina familiar",
+            "alma_mater": "Pontificia Universidad Católica de Chile",
+            "rating": 4.8,
+            "next_date": "2024-08-26T09:00:00",
+            "img": "./img/doctor_7.webp"
+        },
+        {
+            "id": 8,
+            "name": "Dra. Constanza Zaldívar",
+            "age": 44,
+            "specialty": "Medicina familiar",
+            "alma_mater": "Universidad de Chile",
+            "rating": 4.7,
+            "next_date": "2024-08-27T14:00:00",
+            "img": "./img/doctor_8.webp"
+        },
+        {
+            "id": 9,
+            "name": "Dr. Francisco Infante",
+            "age": 52,
+            "specialty": "Medicina familiar",
+            "alma_mater": "Universidad de los Andes",
+            "rating": 4.9,
+            "next_date": "2024-08-28T13:00:00",
+            "img": "./img/doctor_9.webp"
+        },
+        {
+            "id": 10,
+            "name": "Dra. Camila Eyzaguirre",
+            "age": 37,
+            "specialty": "Medicina familiar",
+            "alma_mater": "Universidad de Concepción",
+            "rating": 4.5,
+            "next_date": "2024-08-29T10:00:00",
+            "img": "./img/doctor_10.webp"
+        },
+        {
+            "id": 11,
+            "name": "Dr. Martín Yáñez",
+            "age": 49,
+            "specialty": "Medicina familiar",
+            "alma_mater": "Universidad del Desarrollo",
+            "rating": 4.8,
+            "next_date": "2024-08-30T15:00:00",
+            "img": "./img/doctor_11.webp"
+        },
+        {
+            "id": 12,
+            "name": "Dr. Joaquín Hurtado",
+            "age": 55,
+            "specialty": "Medicina interna",
+            "alma_mater": "Pontificia Universidad Católica de Chile",
+            "rating": 4.9,
+            "next_date": "2024-09-01T11:00:00",
+            "img": "./img/doctor_12.webp"
+        },
+        {
+            "id": 13,
+            "name": "Dra. Rosario Barros",
+            "age": 47,
+            "specialty": "Medicina interna",
+            "alma_mater": "Universidad de Chile",
+            "rating": 4.8,
+            "next_date": "2024-09-02T08:00:00",
+            "img": "./img/doctor_13.webp"
+        },
+        {
+            "id": 14,
+            "name": "Dr. Cristóbal Rojas",
+            "age": 53,
+            "specialty": "Medicina interna",
+            "alma_mater": "Universidad de los Andes",
+            "rating": 4.7,
+            "next_date": "2024-09-03T13:00:00",
+            "img": "./img/doctor_14.webp"
+        },
+        {
+            "id": 15,
+            "name": "Dra. Antonia Ibáñez",
+            "age": 41,
+            "specialty": "Medicina interna",
+            "alma_mater": "Universidad de Concepción",
+            "rating": 4.6,
+            "next_date": "2024-09-04T12:00:00",
+            "img": "./img/doctor_15.webp"
+        },
+        {
+            "id": 16,
+            "name": "Dr. Rodrigo Aránguiz",
+            "age": 56,
+            "specialty": "Cirugía",
+            "alma_mater": "Pontificia Universidad Católica de Chile",
+            "rating": 4.8,
+            "next_date": "2024-09-05T09:00:00",
+            "img": "./img/doctor_16.webp"
+        },
+        {
+            "id": 17,
+            "name": "Dra. Laura Tagle",
+            "age": 43,
+            "specialty": "Cirugía",
+            "alma_mater": "Universidad de Chile",
+            "rating": 4.7,
+            "next_date": "2024-09-06T10:00:00",
+            "img": "./img/doctor_17.webp"
+        },
+        {
+            "id": 18,
+            "name": "Dr. Ignacio Valdés",
+            "age": 51,
+            "specialty": "Cirugía",
+            "alma_mater": "Universidad de los Andes",
+            "rating": 4.9,
+            "next_date": "2024-09-07T11:00:00",
+            "img": "./img/doctor_18.webp"
+        },
+        {
+            "id": 19,
+            "name": "Dra. Pilar Saavedra",
+            "age": 40,
+            "specialty": "Cirugía",
+            "alma_mater": "Universidad de Concepción",
+            "rating": 4.5,
+            "next_date": "2024-09-08T14:00:00",
+            "img": "./img/doctor_19.webp"
+        },
+        {
+            "id": 20,
+            "name": "Dr. Patricio Bustos",
+            "age": 47,
+            "specialty": "Ginecología",
+            "alma_mater": "Pontificia Universidad Católica de Chile",
+            "rating": 4.9,
+            "next_date": "2024-09-09T13:00:00",
+            "img": "./img/doctor_20.webp"
+        },
+        {
+            "id": 21,
+            "name": "Dra. Fernanda Hevia",
+            "age": 39,
+            "specialty": "Ginecología",
+            "alma_mater": "Universidad de Chile",
+            "rating": 4.8,
+            "next_date": "2024-09-10T15:00:00",
+            "img": "./img/doctor_21.webp"
+        },
+        {
+            "id": 22,
+            "name": "Dr. Gustavo Maturana",
+            "age": 50,
+            "specialty": "Ginecología",
+            "alma_mater": "Universidad de los Andes",
+            "rating": 4.7,
+            "next_date": "2024-09-11T09:00:00",
+            "img": "./img/doctor_22.webp"
+        },
+        {
+            "id": 23,
+            "name": "Dra. Andrea Letelier",
+            "age": 42,
+            "specialty": "Ginecología",
+            "alma_mater": "Universidad de Concepción",
+            "rating": 4.6,
+            "next_date": "2024-09-12T10:00:00",
+            "img": "./img/doctor_23.webp"
+        },
+        {
+            "id": 24,
+            "name": "Dr. Ricardo Moreno",
+            "age": 48,
+            "specialty": "Psiquiatría",
+            "alma_mater": "Pontificia Universidad Católica de Chile",
+            "rating": 4.7,
+            "next_date": "2024-09-13T08:00:00",
+            "img": "./img/doctor_24.webp"
+        },
+        {
+            "id": 25,
+            "name": "Dra. Verónica Díaz",
+            "age": 41,
+            "specialty": "Psiquiatría",
+            "alma_mater": "Universidad de Chile",
+            "rating": 4.6,
+            "next_date": "2024-09-14T12:00:00",
+            "img": "./img/doctor_25.webp"
+        },
+        {
+            "id": 26,
+            "name": "Dr. Felipe Urrutia",
+            "age": 53,
+            "specialty": "Psiquiatría",
+            "alma_mater": "Universidad de los Andes",
+            "rating": 4.8,
+            "next_date": "2024-09-15T11:00:00",
+            "img": "./img/doctor_26.webp"
+        },
+        {
+            "id": 27,
+            "name": "Dr. Jorge Baeza",
+            "age": 44,
+            "specialty": "Dermatología",
+            "alma_mater": "Pontificia Universidad Católica de Chile",
+            "rating": 4.8,
+            "next_date": "2024-09-16T09:00:00",
+            "img": "./img/doctor_27.webp"
+        },
+        {
+            "id": 28,
+            "name": "Dra. María José Figueroa",
+            "age": 38,
+            "specialty": "Dermatología",
+            "alma_mater": "Universidad de Chile",
+            "rating": 4.7,
+            "next_date": "2024-09-17T10:00:00",
+            "img": "./img/doctor_28.webp"
+        }
+    ]
+}

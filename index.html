@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega final, Nathaniel Ibáñez</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+</head>
+<body>
+    <header class="titlebar">
+        <img src="./img/medicosAntigua.webp" alt="Logo Médicos a la antigua" class="logoImagen" width="7%" height="7%"/>
+        <h1 class="titleText">Médicos a la antigua</h1>
+    </header>
+
+<!-- Ingreso de datos básicos, nombre y número de teléfono -->
+
+    <div class="bodyTextAdjust">
+        <div>
+            <h2>Bienvenido a la plataforma de telemedicina</h2>
+
+<!-- Container con las tarjetas por cada atención -->
+
+            <div class="card-container" id="card-container"></div>
+    
+<!-- Ingreso de datos básicos, nombre y número de teléfono -->
+
+            <label  for="name">Ingrese su nombre:  </label>
+            <input class="dataInput" type="text" id="nameInput" name="name" placeholder="Nombre Apellido" required minlength="4" size="50"/>
+        </div>
+        <div class="dataTextInput">
+            <label  for="telefono" class="form-label"> Número telefónico:  </label>
+            <input class="dataInput"type="telefono" id="phoneInput" class="form-control" name="Nombre de ejemplo" id="telefono" placeholder="+569 12345678" required>
+        </div>
+        <div> 
+            <label  for="email" class="form-label">Correo electrónico:  </label>
+            <input class="dataInput" type="email" class="form-control" id="emailInput" placeholder="ejemplo@correo.com" required/>
+        </div>
+
+<!-- Selección de parámetros que afectan el precio: previsión, especialidad y edad -->
+ 
+    <div>
+        <h3>Ingrese su previsión</h3> 
+        <select class="bodyText selectAdjust" aria-label="select example" name="" id="isapreInput" required>
+            <option value="" disabled selected>Ingrese previsión</option>
+            <option value="banmedica">Banmédica</option>
+            <option value="consalud">Consalud</option>
+            <option value="colmena">Colmena</option>
+            <option value="cruzblanca">Cruz blanca</option>
+            <option value="masvida">Masvida</option>
+            <option value="vidatres">Vidatres</option>
+            <option value="esencial">Esencial</option>
+        </select>
+
+        <h3>Ingrese la especialidad</h3>
+        <select class="bodyText selectAdjust" aria-label="select example" name="" id="serviceInput" required>
+            <option value="" disabled selected>Ingrese especialidad</option>
+            <option value="Medicina general">Medicina general</option>
+            <option value="Medicina familiar">Medicina familiar</option>
+            <option value="Medicina interna">Medicina interna</option>
+            <option value="Cirugía">Cirugía</option>
+            <option value="Ginecología">Ginecología</option>
+            <option value="Psiquiatría">Psiquiatría</option>
+            <option value="Dermatología">Dermatología</option>
+        </select>
+    </div>
+
+<!-- Contenedor para mostrar médicos disponibles tras elegir la especialidad -->
+
+        <h3>Doctores disponibles</h3>
+        <div id="doctorCardContainer"></div>
+
+        <h3>Ingrese su fecha de nacimiento</h3>
+            <input class="calendarInput" type="date" name="fechanacimiento" id='fechanacimiento' onchange="calculoEdad()" required>         
+            <p id="edadEnAnos">Se calculará su edad</p>
+        </label>
+    </div>
+
+<!-- Botón de submit, para realizar cálculos de precio, mostrar la siguiente atención disponible -->
+
+    <div class="buttonCentering">
+        <button id="submit-btn">Solicitar hora</button>
+    </div>
+
+<!-- Footer sencillo -->
+
+    <footer class="footerBar">
+            Copyright© 2024 - Nathaniel Ibáñez
+    </footer>
+
+<!-- Zona de scripts -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
