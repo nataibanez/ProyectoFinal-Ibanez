@@ -203,7 +203,7 @@ let submitButtonProc = () => {
     // Creo que es porque se evalúa un número, y con valores null o undefined, no anda
     if (!edadPcte) {
         alert("Dato de edad inválido, ingrese nuevamente");
-        return; // Prevent further execution
+        return;
     }
 
     // Cálculo de precio total
